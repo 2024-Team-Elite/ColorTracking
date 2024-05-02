@@ -1,0 +1,3 @@
+/home/apollo/colortracking/colortrackingCPP/src/CMakeFiles/Colortracking.dir
+/home/apollo/colortracking/colortrackingCPP/src/CMakeFiles/edit_cache.dir
+/home/apollo/colortracking/colortrackingCPP/src/CMakeFiles/rebuild_cache.dir
