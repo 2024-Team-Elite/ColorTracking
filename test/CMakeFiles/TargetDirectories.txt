@@ -1,0 +1,3 @@
+/home/apollo/colortracking/test/CMakeFiles/latency.dir
+/home/apollo/colortracking/test/CMakeFiles/edit_cache.dir
+/home/apollo/colortracking/test/CMakeFiles/rebuild_cache.dir

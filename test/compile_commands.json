@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/apollo/colortracking/test",
+  "command": "/usr/bin/c++ -DDEPTHAI_TARGET_CORE -DDEPTHAI_TARGET_OPENCV -DJSON_USE_IMPLICIT_CONVERSIONS=1 -isystem /usr/local/include/opencv4 -isystem /usr/local/include/depthai-shared/3rdparty -isystem /usr/local/lib/cmake/depthai/dependencies/include  -Ofast -DNDEBUG -s -flto=auto -fno-fat-lto-objects -o CMakeFiles/latency.dir/latency.cpp.o -c /home/apollo/colortracking/test/latency.cpp",
+  "file": "/home/apollo/colortracking/test/latency.cpp"
+}
+]
