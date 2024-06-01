@@ -203,7 +203,7 @@
             original = videoIn->getCvFrame();            
             copyTo(original, masked, mask);
             //Resizing and Masking
-            resize(masked, masked, Size(1920, 1080), cv::INTER_AREA);
+            resize(masked, masked, Size(1920, 1080), cv::INTER_NEAREST);
             
             // HSV conversion
             Mat hsv; 
