@@ -20,6 +20,10 @@
     #include <termios.h>
     #include <chrono>
 
+    
+    #ifndef M_PI_4
+    #define M_PI_4 (3.1415926535897932384626433832795/4.0)
+    #endif
 
 
     using namespace cv;
@@ -97,6 +101,11 @@
 
     clock_t current_ticks, delta_ticks;
     clock_t fps = 0;
+
+    int fastarctan(double theta){
+        // Uses approximation accurate within 0.1% to get 5x speed on average. Returns deg value
+        return M_PI_4*theta - theta*(fabs(theta) - 1)*(0.2447 + 0.0663*fabs(theta)) * 57.2957795;
+    }
 
     int main() {
 
@@ -254,7 +263,7 @@
                     midy = (boundRect.tl().y + boundRect.br().y)/2.0;
                     midx -= xoffset;
                     midy -= yoffset;
-                    ballAngle = atan2(midx, midy) * (180.0/3.141592653589793238463);
+                    ballAngle = fastarctan(midx, midy) * (180.0/3.141592653589793238463);
                     ballAngle += 180;
                     balldist = sqrt((midx*midx) + (midy*midy));
                     balldist *= 3.0/2.0;
@@ -266,7 +275,7 @@
                     midy = (boundRect.tl().y + boundRect.br().y)/2.0;
                     midx -= xoffset;
                     midy -= yoffset;
-                    yellowAngle = atan2(midx, midy) * (180.0/3.141592653589793238463);
+                    yellowAngle = fastarctan(midx, midy) * (180.0/3.141592653589793238463);
                     yellowAngle += 180;
             }
             if(max_blue.size() > 0 && contourArea(max_blue) > 400) {
@@ -276,7 +285,7 @@
                     midy = (boundRect.tl().y + boundRect.br().y)/2.0;
                     midx -= xoffset;
                     midy -= yoffset;
-                    blueAngle = atan2(midx, midy) * (180.0/3.141592653589793238463);
+                    blueAngle = fastarctan(midx, midy) * (180.0/3.141592653589793238463);
                     blueAngle += 180;
             }
             
