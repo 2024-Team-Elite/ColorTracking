@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['ball', 'blue-goal', 'robots', 'yellow-goal']
+
+roboflow:
+  workspace: robotdetection-ckzd9
+  project: robot-detection-ciafw
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/robotdetection-ckzd9/robot-detection-ciafw/dataset/7

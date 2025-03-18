@@ -129,29 +129,29 @@ Colortracking/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Colortracking.dir/build.make CMakeFiles/Colortracking.dir/build
 .PHONY : Colortracking/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+testing.o: testing.cpp.o
+.PHONY : testing.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Colortracking.dir/build.make CMakeFiles/Colortracking.dir/main.cpp.o
-.PHONY : main.cpp.o
+testing.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Colortracking.dir/build.make CMakeFiles/Colortracking.dir/testing.cpp.o
+.PHONY : testing.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+testing.i: testing.cpp.i
+.PHONY : testing.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Colortracking.dir/build.make CMakeFiles/Colortracking.dir/main.cpp.i
-.PHONY : main.cpp.i
+testing.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Colortracking.dir/build.make CMakeFiles/Colortracking.dir/testing.cpp.i
+.PHONY : testing.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+testing.s: testing.cpp.s
+.PHONY : testing.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Colortracking.dir/build.make CMakeFiles/Colortracking.dir/main.cpp.s
-.PHONY : main.cpp.s
+testing.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Colortracking.dir/build.make CMakeFiles/Colortracking.dir/testing.cpp.s
+.PHONY : testing.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Colortracking"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... testing.o"
+	@echo "... testing.i"
+	@echo "... testing.s"
 .PHONY : help
 
 

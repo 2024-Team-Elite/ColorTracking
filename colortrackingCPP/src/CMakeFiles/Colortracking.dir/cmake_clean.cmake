@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Colortracking.dir/main.cpp.o"
-  "CMakeFiles/Colortracking.dir/main.cpp.o.d"
+  "CMakeFiles/Colortracking.dir/testing.cpp.o"
+  "CMakeFiles/Colortracking.dir/testing.cpp.o.d"
   "Colortracking"
   "Colortracking.pdb"
 )

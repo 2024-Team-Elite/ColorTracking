@@ -234,7 +234,7 @@ Colortracking_SOURCE_DIR:STATIC=/home/apollo/colortracking/colortrackingCPP/src
 FP16_DIR:PATH=/home/apollo/colortracking/colortrackingCPP/depthai-core/build/install/lib/cmake/depthai/dependencies/lib/cmake/FP16
 
 //The directory containing a CMake configuration file for OpenCV.
-OpenCV_DIR:PATH=/usr/local/lib/cmake/opencv4
+OpenCV_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/opencv4
 
 //Auto detect backward's stack details dependencies
 STACK_DETAILS_AUTO_DETECT:BOOL=FALSE
@@ -271,6 +271,9 @@ archive_static_DIR:PATH=/home/apollo/colortracking/colortrackingCPP/depthai-core
 
 //The directory containing a CMake configuration file for depthai.
 depthai_DIR:PATH=/home/apollo/colortracking/colortrackingCPP/depthai-core/build/install/lib/cmake/depthai
+
+//The directory containing a CMake configuration file for jsoncpp.
+jsoncpp_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/jsoncpp
 
 //The directory containing a CMake configuration file for libnop.
 libnop_DIR:PATH=/home/apollo/colortracking/colortrackingCPP/depthai-core/build/install/lib/cmake/depthai/dependencies/lib/cmake/libnop
@@ -450,7 +453,7 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding OpenCV
-FIND_PACKAGE_MESSAGE_DETAILS_OpenCV:INTERNAL=[/usr/local][v4.9.0()]
+FIND_PACKAGE_MESSAGE_DETAILS_OpenCV:INTERNAL=[/usr][v4.6.0()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //linker supports push/pop state

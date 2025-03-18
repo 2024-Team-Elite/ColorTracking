@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/apollo/colortracking/colortrackingCPP/src/main.cpp" "CMakeFiles/Colortracking.dir/main.cpp.o" "gcc" "CMakeFiles/Colortracking.dir/main.cpp.o.d"
+  "/home/apollo/colortracking/colortrackingCPP/src/testing.cpp" "CMakeFiles/Colortracking.dir/testing.cpp.o" "gcc" "CMakeFiles/Colortracking.dir/testing.cpp.o.d"
   )
 
 # Targets to which this target links.

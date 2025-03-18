@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DDEPTHAI_TARGET_CORE -DDEPTHAI_TARGET_OPENCV -DJSON_USE_IMPLICIT_CONVERSIONS=1
 
-CXX_INCLUDES = -isystem /usr/local/include/opencv4 -isystem /home/apollo/colortracking/colortrackingCPP/depthai-core/build/install/include -isystem /home/apollo/colortracking/colortrackingCPP/depthai-core/build/install/include/depthai-shared/3rdparty -isystem /home/apollo/colortracking/colortrackingCPP/depthai-core/build/install/lib/cmake/depthai/dependencies/include
+CXX_INCLUDES = -isystem /usr/include/opencv4 -isystem /home/apollo/colortracking/colortrackingCPP/depthai-core/build/install/include -isystem /home/apollo/colortracking/colortrackingCPP/depthai-core/build/install/include/depthai-shared/3rdparty -isystem /home/apollo/colortracking/colortrackingCPP/depthai-core/build/install/lib/cmake/depthai/dependencies/include -isystem /usr/include/jsoncpp
 
-CXX_FLAGS = 
+CXX_FLAGS = -Wall -Wextra -march=native -Wunused-parameter -Wunused-function -O3
 

@@ -69,45 +69,86 @@ include CMakeFiles/Colortracking.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Colortracking.dir/flags.make
 
-CMakeFiles/Colortracking.dir/main.cpp.o: CMakeFiles/Colortracking.dir/flags.make
-CMakeFiles/Colortracking.dir/main.cpp.o: main.cpp
-CMakeFiles/Colortracking.dir/main.cpp.o: CMakeFiles/Colortracking.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/apollo/colortracking/colortrackingCPP/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Colortracking.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Colortracking.dir/main.cpp.o -MF CMakeFiles/Colortracking.dir/main.cpp.o.d -o CMakeFiles/Colortracking.dir/main.cpp.o -c /home/apollo/colortracking/colortrackingCPP/src/main.cpp
+CMakeFiles/Colortracking.dir/testing.cpp.o: CMakeFiles/Colortracking.dir/flags.make
+CMakeFiles/Colortracking.dir/testing.cpp.o: testing.cpp
+CMakeFiles/Colortracking.dir/testing.cpp.o: CMakeFiles/Colortracking.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/apollo/colortracking/colortrackingCPP/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Colortracking.dir/testing.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Colortracking.dir/testing.cpp.o -MF CMakeFiles/Colortracking.dir/testing.cpp.o.d -o CMakeFiles/Colortracking.dir/testing.cpp.o -c /home/apollo/colortracking/colortrackingCPP/src/testing.cpp
 
-CMakeFiles/Colortracking.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Colortracking.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/apollo/colortracking/colortrackingCPP/src/main.cpp > CMakeFiles/Colortracking.dir/main.cpp.i
+CMakeFiles/Colortracking.dir/testing.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Colortracking.dir/testing.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/apollo/colortracking/colortrackingCPP/src/testing.cpp > CMakeFiles/Colortracking.dir/testing.cpp.i
 
-CMakeFiles/Colortracking.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Colortracking.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/apollo/colortracking/colortrackingCPP/src/main.cpp -o CMakeFiles/Colortracking.dir/main.cpp.s
+CMakeFiles/Colortracking.dir/testing.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Colortracking.dir/testing.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/apollo/colortracking/colortrackingCPP/src/testing.cpp -o CMakeFiles/Colortracking.dir/testing.cpp.s
 
 # Object files for target Colortracking
 Colortracking_OBJECTS = \
-"CMakeFiles/Colortracking.dir/main.cpp.o"
+"CMakeFiles/Colortracking.dir/testing.cpp.o"
 
 # External object files for target Colortracking
 Colortracking_EXTERNAL_OBJECTS =
 
-Colortracking: CMakeFiles/Colortracking.dir/main.cpp.o
+Colortracking: CMakeFiles/Colortracking.dir/testing.cpp.o
 Colortracking: CMakeFiles/Colortracking.dir/build.make
-Colortracking: /usr/local/lib/libopencv_gapi.so.4.9.0
-Colortracking: /usr/local/lib/libopencv_highgui.so.4.9.0
-Colortracking: /usr/local/lib/libopencv_ml.so.4.9.0
-Colortracking: /usr/local/lib/libopencv_objdetect.so.4.9.0
-Colortracking: /usr/local/lib/libopencv_photo.so.4.9.0
-Colortracking: /usr/local/lib/libopencv_stitching.so.4.9.0
-Colortracking: /usr/local/lib/libopencv_video.so.4.9.0
-Colortracking: /usr/local/lib/libopencv_videoio.so.4.9.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_stitching.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_alphamat.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_aruco.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_barcode.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_bgsegm.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_bioinspired.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_ccalib.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_cvv.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_dnn_objdetect.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_dnn_superres.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_dpm.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_face.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_freetype.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_fuzzy.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_hdf.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_hfs.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_img_hash.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_intensity_transform.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_line_descriptor.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_mcc.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_quality.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_rapid.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_reg.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_rgbd.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_saliency.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_shape.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_stereo.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_structured_light.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_superres.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_surface_matching.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_tracking.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_videostab.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_viz.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_wechat_qrcode.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_xobjdetect.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_xphoto.so.4.6.0
 Colortracking: /home/apollo/colortracking/colortrackingCPP/depthai-core/build/install/lib/libdepthai-opencv.a
-Colortracking: /usr/local/lib/libopencv_imgcodecs.so.4.9.0
-Colortracking: /usr/local/lib/libopencv_dnn.so.4.9.0
-Colortracking: /usr/local/lib/libopencv_calib3d.so.4.9.0
-Colortracking: /usr/local/lib/libopencv_features2d.so.4.9.0
-Colortracking: /usr/local/lib/libopencv_flann.so.4.9.0
-Colortracking: /usr/local/lib/libopencv_imgproc.so.4.9.0
-Colortracking: /usr/local/lib/libopencv_core.so.4.9.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libjsoncpp.so.1.9.5
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_highgui.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_datasets.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_plot.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_text.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_ml.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_phase_unwrapping.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_optflow.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_ximgproc.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_video.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_videoio.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_imgcodecs.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_objdetect.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_calib3d.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_dnn.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_features2d.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_flann.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_photo.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_imgproc.so.4.6.0
+Colortracking: /usr/lib/aarch64-linux-gnu/libopencv_core.so.4.6.0
 Colortracking: /home/apollo/colortracking/colortrackingCPP/depthai-core/build/install/lib/libdepthai-core.a
 Colortracking: /home/apollo/colortracking/colortrackingCPP/depthai-core/build/install/lib/libdepthai-resources.a
 Colortracking: /home/apollo/colortracking/colortrackingCPP/depthai-core/build/install/lib/cmake/depthai/dependencies/lib/libXLink.a
